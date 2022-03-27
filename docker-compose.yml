@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: lepointdevente-app
+    image: dersonsena/php-nginx-dev:7.4
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - '80:80'
+    environment:
+      - PHP_DISPLAY_ERRORS=On
+    networks:
+      - lepointdevente-network
+
+networks:
+  lepointdevente-network:
+    driver: bridge

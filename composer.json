@@ -1,0 +1,11 @@
+{
+  "name": "mariodanilosilva/lepointdevente",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
