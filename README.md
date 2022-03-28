@@ -18,7 +18,6 @@ This will get the dependencies associated with the project and allow you to run 
 $ docker-compose up -d
 ```
 This will create the container with the PHP and NGINX service.
-```bash
 
 ## Access the service
 The project was set to run on port 80, access the browser [http://localhost](http://localhost) and check if the service is running.
